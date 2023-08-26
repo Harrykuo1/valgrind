@@ -12,10 +12,12 @@ TOOLS = \
 		massif \
 		dhat \
 		lackey \
-		none
+		none \
+		cachemiss \
 
 EXP_TOOLS = \
-		exp-bbv
+		exp-bbv \
+		cachemiss
 
 # Put docs last because building the HTML is slow and we want to get
 # everything else working before we try it.
